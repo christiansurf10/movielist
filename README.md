@@ -1,7 +1,7 @@
 #  Projeto Movie List
-## Importa um aquivo CSV extrai as inforamções transforma e carrega no banco de dados.
+## Objetivo: Importar um aquivo .csv extrai as informações transforma e carrega no banco de dados.
 
-### Provendo uma API REST para consulta de filmes vencedores do Oscar por intervalo de anos.
+### Provendo uma API REST para consultar o intervalo máximo e mínimo entre os produtores vencedores.
 
 ### Endpoint: Obter Intervalos de Prêmios dos Produtores
 
