@@ -80,7 +80,6 @@ ou, se preferir, execute o jar gerado:
 ```
 
 mvn clean package
-cd target
 java -jar target/movielist-0.0.1-SNAPSHOT.jar
 ```
 3. Acesse a aplicação através do navegador no seguinte endereço:
