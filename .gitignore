@@ -3,7 +3,8 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
+# Ignora a pasta de build do Maven
+/target/
 ### STS ###
 .apt_generated
 .classpath
