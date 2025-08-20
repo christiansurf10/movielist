@@ -1,7 +1,7 @@
 #  Projeto Movie List
 ## Objetivo: Importar um aquivo .csv extrai as informações transforma e carrega no banco de dados.
 
-### Provendo uma API REST para consultar o intervalo máximo e mínimo entre os produtores vencedores.
+### Provendo uma API REST para consultar o intervalo consecutivo, máximo e mínimo entre os anos em que os produtores foram vencedores.
 
 ### Endpoint: Obter Intervalos de Prêmios dos Produtores
 
