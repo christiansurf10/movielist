@@ -46,7 +46,7 @@ Retorna os produtores com os menores e maiores intervalos entre prêmios.
 ```
 
 ## Como Executar o Projeto
-O projeto roda na versão 22 do java: https://download.oracle.com/java/22/archive/jdk-22.0.2_windows-x64_bin.zip
+O projeto foi desenvolvido na versão 22 do java: https://download.oracle.com/java/22/archive/jdk-22.0.2_windows-x64_bin.zip
 
 Descompact o arquivo e aponte a variável de ambiete JAVA_HOME para o caminho do pacote:. Ex: C:\Java\jdk22.0.2\bin 
 
