@@ -12,7 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 public class ProducerWinnerDTO {
 
-    private List<IntervalWinnerDTO> min = new ArrayList<IntervalWinnerDTO>(2  );
-    private List<IntervalWinnerDTO> max = new ArrayList<IntervalWinnerDTO>(2  );
+    private List<IntervalWinnerDTO> min = new ArrayList<IntervalWinnerDTO>(1  );
+    private List<IntervalWinnerDTO> max = new ArrayList<IntervalWinnerDTO>(1  );
 
 }

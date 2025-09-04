@@ -16,8 +16,8 @@ public interface ProducerRepository extends JpaRepository<Producer, Long> {
     List<Producer> findProducersWithMoreThanOneWinner();
 
     @Query("SELECT p FROM Producer p JOIN p.winnerList w GROUP BY p.id ORDER BY MAX(w.ageOutWinner) DESC")
-    List<Producer> findTop2ByMaxAgeOutWinner(Pageable pageable);
+    List<Producer> findTopByMaxAgeOutWinner(Pageable pageable);
 
     @Query("SELECT p FROM Producer p JOIN p.winnerList w  WHERE w.ageOutWinner <> 0 GROUP BY p.id ORDER BY MIN(w.ageOutWinner) ASC")
-    List<Producer> findTop2ByMinAgeOutWinner(Pageable pageable);
+    List<Producer> findTopByMinAgeOutWinner(Pageable pageable);
 }

@@ -35,9 +35,9 @@ public class MovieService {
     public ProducerWinnerDTO getProducerWinners() {
         ProducerWinnerDTO producerWinnerDTO = new ProducerWinnerDTO();
 
-        PageRequest pageRequest = PageRequest.of(0, 2);
-        List<Producer> producersMaxWinner = producerRepository.findTop2ByMaxAgeOutWinner(pageRequest);
-        List<Producer> producersMinWinner = producerRepository.findTop2ByMinAgeOutWinner(pageRequest);
+        PageRequest pageRequest = PageRequest.of(0, 1);
+        List<Producer> producersMaxWinner = producerRepository.findTopByMaxAgeOutWinner(pageRequest);
+        List<Producer> producersMinWinner = producerRepository.findTopByMinAgeOutWinner(pageRequest);
         List<IntervalWinnerDTO> maxWinners = new ArrayList<>();
         List<IntervalWinnerDTO> minWinners = new ArrayList<>();
 
